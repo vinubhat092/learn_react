@@ -2,7 +2,9 @@ import Alert from "./components/alert";
 import Button from "./components/button";
 import Statetutorial from "./components/usestate";
 import Reducer from "./components/useReducer";
+import Effect from "./components/useEffect";
 import { useState } from "react";
+import Reftutorial from "./components/useref";
 function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
   return (
@@ -22,7 +24,7 @@ function App() {
       >
         hello world
       </Button>
-      <Reducer />
+      <Reftutorial />
     </div>
   );
 }
